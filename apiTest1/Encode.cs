@@ -10,18 +10,17 @@ namespace apiTest1
     {
         // private_key from the Service Account JSON file
         private const string FirebasePrivateKey =
-            @"-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDQFidypNktOK18\nbyra89B4Wt1znj6qQyuwThAm+/hV3Vis8tpd6l3ApEMODhMrRKSiL0Z04V2IIv3B\n1awRBi/s46Frv/A15bK1mxHAulR5Lcxp+jBmo/aLBioH2MPRdsHu2P7e0zs+/2OC\newbluCTiQQ0JH6RxAuFjsDggKq3yGaZ764phrjWRz9WQaS4f2xpDHENXAngE3/pv\ncxG7T+n1ha0pKQwc0FG6/uDcsUkPzeP1ZoIpTEUlaA1rRTaThEuGiynBbYZDh2Dx\nGGyufZIi2vrLoBAqEWdoXmHdOZ0iBPPv0uLG/Wj6p4vnorOoeir8nl7yN8Zp7Sho\nTi37YHGLAgMBAAECggEBAM2GNCw9ueu6YU/YFQHxcuSNCtFZaReOBKa8U6PNlzhn\nyV/49clw5GyTUU+egzxnLhyqiPKEbXc66Fv9CVg/PjLBmfvstfrmBp7srJoo76pI\nm+/Ilump5Kbnzbe2V6KZo26fkQzQoWHVqZmEngli2btG+PMb97VPXQKzWJwcy3Wk\nLAuW2/vuQA/2+hAddl2fEq6QLPeWz35+uEZEOolXjQTctiL7E4x8r/Zv4EgQDgE+\n5J/VGpvehJRwd9bZUfjV6NaEKssqlXtj5HKg1XK8Kuc+A5BroyjblqVC40tw6dpz\nRVEzs4jNi1OeHajWKTNen1jXkCACTyfM4H70x2ILlOECgYEA6+tirvWMMPjrdqLK\nJSibJQ+tkjuh8daS4w2Ib5vwvRHnttYh/Y1F7NO/a5KGAgvg30Li36Xf5SrF91O5\n2Q9j6jNs/NxgX4+sbJPZJEmZHIGjgWs0Bbf4v4or48SESepM989WqTHtfIzAeKQm\n+Jt3F943Vw0GwpVELcD4KtYMsBkCgYEA4cxMHJiJlrCkGo9Gd6KaAmtqFxayAaOy\nfd2Xg5/HXpOkb7WB5szLAeJeQYlJqqA+Rql5cf2uKqvW9koZX80qdWHXhyfmPYvN\nehfDO8GIhISuuAEq7+P+ggo/pvkThoHWN4sU0UYmZQyA+oqyHj/NKKa7WGMK0GSa\nI6KHmvJwk0MCgYAa1EkDtp77zsMQWdD9StHh9Bd8ItX2570KnzZd4vEMv2WHkHCL\nIi7KkQYa2K3uu6UWHsgoQPfmWufqiZYADlUBhFmno/Q9ydwE+QdfrhMAf+m1RRjE\ncbiTJ8Z3/5g/w6p/IBAt66SjXmphDeH0sdFoYHgQqUWUiV8YiPJwBKmquQKBgD2+\ngN2c9JrJSMaegTV7uEOLHeKcaSa7nbZ/Xsw2Z+070E5fwtrbC3RDc2TWZteKpBzs\ngPIj3Xl7rfeBQbkJwF+C1s31oicYUKLfVprDjFI4ehKE9znMDa9/n/JH0AgK/woH\nNTUYyqz9I1Pfk19kMPS5yycbRjzAFcpCynQbcZ9DAoGBAOLUllUQ7IUFNL98+cDs\n3e2x8wa22nwA/9TjjjmU/Xo2CbytuwwWY4zps/Uijlcu+9oZ2OY2V8jzZYS1sfEp\nrtQBHlAUltHfP1ePiMZHYYo+x9jOHr8WKbsNxciZlulATiipOXPSD5YMhRyV9jzw\nHC3WX4SfIg7lrq068ZvPDj3w\n-----END PRIVATE KEY-----\n";
+            "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDbkOWgiSSGfewL\nIu0rqBKd+1af23TymyM3cGk6HgoDPRZqLcC005R9tyjFcKruNPhzR7zALXV2GLqp\nm6YMzRZKOCMyI1IiCnnyM2usyVKeA3/ALCAi67+MDmxjA/Ic8cwM7MEcEuY/CHpB\n04JZpAmO7FiIHWzmTLjintM1f6az8T6STXtVFlBTB6MdTl0+WZJc1vwVONtj8YUC\nv3lp/YaqIsrjwECTvii5ymUGEUyYC+fqqkWbABuUhVN5W8EJuhbGGVoJT07iIO09\nAkbQ+YwxF+sM1PjUgieYSGnljL2s4ve3367D7hdSqk0WPzxCntnEn3I2r76aeFC/\nHu7zUiKXAgMBAAECggEBAMgA+0r64gyo08VpMUXdOegytLu1Ophr/O5ZNWE9T72X\nfb2Go82UFeVWXItNkEagddj89dDRF/hVmmM5Z06t2qoM7PKU/hIIHQElGeYxFVLe\nuRYim7tzp+46jTy8sWTwVQFJALdD9/xfCo6/zjM9m39Xh2Wl+DbomFnGd3p6Jy4s\n2CIbPlknUKVjaPwGKAsQRkh4UfEyey636WPHnqVP2NOvLhEOEf0XD6ZzVmMymZSe\ntv8eYjPJYLo2UG27u3l8R88tz32ba4qXXPpVgZ94Yk6kpYX2QHbCwqzj0dghIm/x\ndCgBcPSFul2lGoJtIj0oFz111NCB3ahQnVzrDUVHWqECgYEA/D+9Lq3vI6NW8z8b\nVNOYlepi45SfCI+xqri3AsOmtasSXespFFQCtaXdk9Ip8NnJ0LTM5p1lV8WNG6kl\nka8KPlGl4Ey9U3fhSDIBRXPV06IKh9QNAVbNjCbHz3PGSIEsOMWoJkrtqKTkWCVr\nIgtpK46AZpcU1dEG4vsTbRbnum8CgYEA3tS9kHLP5HGCo12ojm/QCDgsb/EdOyg3\nnmjNHL0BNIUj/V9jTDVm0DzmPET+Ev34w2JnuLVtL+iQ5Odx2LWOVOKVZIm5jsbE\nndtvwzBGnHDMg6NsHFBu9+qteO+uwiYYwfnaC4wonjZkAQBWHFmXaqf+1ub50PGF\nGJg1a3mTzlkCgYA6JG70zX6rlkC6fLdODB/FnmsAzgcCMCzhjwYQCwzoHvBy2Xt0\nhhDB0eOK6Qxlya1s/9+i4HC1lIF7+LcCJ3iS+LrlQor5LE6vF2eXnKWSzGzk9gmx\nX1KtlVrFBIiVucB5rYWenfK9xpQjhSx2gm7RbV1HSFezGSUfOIQ3xunO3QKBgQDL\njXT5LhhAq3xV9amTLArSZ1YYkB5OuudL2pp8BR/DtVfyDZ/srt+Tm/4J0lByUvRa\nr1rmfT0XxZAOumniN7+kRTOJGtKZ3XMgbKMEn+Xw5I2+Npv8pXEpIYSD9BclHZ4C\nHFYVtFwqYq8pxv/id+j8sif2chqExwv5Mpmh6vadSQKBgG2KKXInBjIQpDGzBjHK\n24whwcvrz4mzunmYVyKNbPqLC1tkL60hSzX03c2rdHPaZSXfBqll/ez7SQOIbN1A\n8rztQbngii6CU04DzA52101ZFGDolU+vQfM4O7K12mJOWXNEwASl0vN88MqTCGrR\n9GfYqHGg+H5U6MUZ/EyuP3FP\n-----END PRIVATE KEY-----\n";
 
         // Same for everyone
         private const string FirebasePayloadAud =
             "https://identitytoolkit.googleapis.com/google.identity.identitytoolkit.v1.IdentityToolkit";
 
         // client_email from the Service Account JSON file
-        private const string FirebasePayloadIss = "firebaseauth@test-f9bcb.iam.gserviceaccount.com";
-        private const string FirebasePayloadSub = "firebaseauth@test-f9bcb.iam.gserviceaccount.com";
+        private const string FirebasePayloadUrl = "firebase-adminsdk-szyhq@test-f9bcb.iam.gserviceaccount.com";
 
         // the token 'exp' - max 3600 seconds - see https://firebase.google.com/docs/auth/server/create-custom-tokens
-        private const int FirebaseTokenExpirySecs = 3600;
+        private const int FirebaseTokenExpirySecs = 2600;
 
         private static RsaPrivateCrtKeyParameters _rsaParams;
         private static readonly object RsaParamsLocker = new object();
@@ -35,27 +34,21 @@ namespace apiTest1
                 {
                     if (_rsaParams == null)
                     {
-                        var sr = new StreamReader(GenerateStreamFromString(FirebasePrivateKey.Replace(@"\n", "\n")));
+                        var sr = new StreamReader(GenerateStreamFromString(FirebasePrivateKey));
                         var pr = new Org.BouncyCastle.OpenSsl.PemReader(sr);
                         _rsaParams = (RsaPrivateCrtKeyParameters) pr.ReadObject();
                     }
                 }
             }
 
-            var claims = new Dictionary<string, object>
-            {
-                {"premium_account", true}
-            };
-
             var payload = new Dictionary<string, object>
             {
-                {"claims", claims},
                 {"uid", uid},
                 {"iat", SecondsSinceEpoch(DateTime.UtcNow)},
                 {"exp", SecondsSinceEpoch(DateTime.UtcNow.AddSeconds(FirebaseTokenExpirySecs))},
                 {"aud", FirebasePayloadAud},
-                {"iss", FirebasePayloadIss},
-                {"sub", FirebasePayloadSub}
+                {"iss", FirebasePayloadUrl},
+                {"sub", FirebasePayloadUrl},
             };
 
             return Jose.JWT.Encode(payload, Org.BouncyCastle.Security.DotNetUtilities.ToRSA(_rsaParams),

@@ -21,7 +21,7 @@ namespace apiTest1.Controllers
                 return NotFound();
             }
 
-            var token = Encode.EncodeToken(guid);
+            var token = Encode.EncodeToken("some-uid");
 
             return Ok(token);
         }
